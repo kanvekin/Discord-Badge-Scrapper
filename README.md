@@ -17,6 +17,14 @@ Kurulum Adimlari
    }
 
 
+Kurulum ve Ayar Yardimi
+
+- Node.js Gereksinimi: Bilgisayarinizda Node.js yuklu olmalidir. Yuklu degilse resmi web sitesinden indirip kurabilirsiniz.
+- User Token Nasil Alinir?: Discord hesabinizin token degerini almak icin tarayicinizdan Discord'a giris yapip gelistirici konsolunu (F12) acabilir, Network sekmesinden herhangi bir istek secip Headers altinda "authorization" alanindan token bilginizi kopyalayabilirsiniz. (Selfbot kullandiginiz icin anahesabinizi riske atmamak adina yan hesap kullanmaniz onerilir).
+- Webhook URL Nasil Alinir?: Sonuclarin gelmesini istediginiz Discord sunucusunda bir kanal olusturun. Kanal ayarlarindan Entegrasyonlar (Integrations) bolumune girip Webhook olusturun ve URL adresini kopyalayip config dosyasina yapistirin.
+- Kanal ID Nasil Alinir?: Discord ayarlarindan Gelistirici Modunu (Developer Mode) aktif edin. Ardindan komutlari yazacaginiz kanalın uzerine sag tiklayip "Kanal ID'sini Kopyala" secenegini kullanin.
+
+
 Config Dosyasi Detaylari
 
 - token: Botun calisacagi Discord hesabinin User Token degeri.
